@@ -33,7 +33,7 @@
             <p>Olá! Sou Rodrigo Sastre, um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência em
                 desenvolvimento web e estou sempre buscando aprender novas habilidades para aprimorar meus projetos.</p>
 
-                <p>DA IDEIA AO DIGITAL, HTML É O INICIAL!</p>
+            <p>DA IDEIA AO DIGITAL, HTML É O INICIAL!</p>
 
 
             <aside>
@@ -61,6 +61,44 @@
         </article>
 
     </section>
+    
+    <secion>
+        <h2> Habilidades e Tecnologias </h2>
+
+        <table>
+            <thead>
+                <tr>
+
+                <th>Tecnologia</th>
+                <th>Nível</th>
+                <th>Descrição</th>
+    
+            </tr>
+
+            <tbody> 
+              <tr>
+                <td>HTML</td>
+                <td>Iniciado</td>
+                <td>Conhecimento avançado em estruturação de páginas web</td>
+            </tr>
+            
+              <tr>
+                <td>CSS</td>
+                <td>Intermediário</td>
+                <td>Conhecimento em design responsivo e estilização de páginas web</td>
+            </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Intermediário</td>
+                <td>Conhecimento em programação orientada a objetos e manipulação do DOM</td>
+              </tr>
+           </tbody>
+
+        </table>
+
+    </secion>
+
+
 
     <footer>
         <p>
@@ -83,6 +121,40 @@
                     target="_blank">linkedin.com/in/rodrigo-sastre</a><br>
 
             </address>
+
+
+            </form>
+
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br>
+
+            <label for="assunto">Assunto:</label><br>
+            <input type="text" id="assunto" name="assunto" required><br>
+
+            <select name="assunto" id="assunto">
+                <option value="colaboracao">Colaboração</option>
+                <option value="projetos">Projetos</option>
+                <option value="outros">Outros</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <label for="message">Mensagem:</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+            <input type="checkbox" id="termos" name="termos" required>
+            
+            <label for="termos">Li e concordo com os termos de uso</label><br>
+
+            <input type="submit" value="Enviar">
 
         </section>
 
