@@ -1,33 +1,40 @@
+* {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+a {
+    color: hsl(0, 26%, 96%);
+    text-decoration: none;
+}
+
+body {
+  background-color: #0918f1;
+
+}
+
 p {
     font-size: 18px;
     line-height: 1.6;
-    color: #130ff1;
-
+    color: #ffffff;
+    
 }
 
 h1 {
-    color: rgba(0, 204, 255, 0.993);
+    color: rgba(251, 255, 0, 0.993);
     font-size: 36px;
     font-weight: bold;
-}
+   }
 
 h2 {
-    color: rgba(0, 204, 255, 0.993);
+    color: rgba(250, 246, 5, 0.993);
     font-size: 30px;
     font-weight: bold;
 }
 
 h3 {
-    color: rgba(0, 204, 255, 0.993;
+    color: rgba(255, 217, 0, 0.993);
     font-size: 24px;
     font-weight: bold;
-}
-
-body {
-    background-color: #130ff1#;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    margin: 0;
-    padding: 20px;
 }
 
 li {
@@ -41,7 +48,7 @@ tr {
 
 td {
     color: hsl(0, 0%, 100%);
-    padding: 10px;
+    padding: 10   ;
     border: 1px solid #ddd;
 }
 
@@ -49,16 +56,7 @@ address {
     color: hsl(0, 0%, 100%);
 }
 
-form {
-    background-color: #130ff1;
-    padding: 20px;
-    border-radius: 5px;
-    color: hsl(0, 0%, 100%);
-}
 
-label {
-    color: hsl(0, 0%, 100%);
-}
 nav {
         color: hsl(0, 0%, 100%);
 }
@@ -68,13 +66,13 @@ ul {
 }
 
 section {
-        padding: 20px;
+    padding: 0,2px;
     border-radius: 5px;
     color: hsl(0, 0%, 100%);
 }
 
 select {
-    color: #130ff1;
+    color: #000000;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 5px;
@@ -90,8 +88,8 @@ li a {
 }
 
 input[type="submit"] {
-    background-color: ##130ff1;
-    color: rgb(37, 0, 247);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -102,7 +100,7 @@ label for="termos" {
     color: hsl(0, 0%, 100%);
 }
 
-anddress a {
+address {
     color: hsl(0, 0%, 100%);
 }
 
@@ -110,4 +108,10 @@ contato {
     color: hsl(0, 0%, 100%);
 }
 
+br {
+    color: hsl(0, 0%, 100%);
+}
 
+label {
+    color: hsl(0, 0%, 100%);
+}
