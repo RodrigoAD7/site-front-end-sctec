@@ -1,232 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<link rel="stylesheet" href="style.css">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifólio</title>
+    <meta name="description" content="Portfólio de Rodrigo Sastre, desenvolvedor front-end em formação.">
+    <title>Rodrigo Sastre | Portfólio Front-end</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Voltar ao início">Rodrigo Sastre</a>
 
-        <header>
-        <h1>Rodrigo Sastre</h1>
-       
-        <nav> <!--Seção de navegaçao do site.  -->
-            <ul> <!-- Lista não ordenada para links do nosso menu.-->
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-                <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools</a></li>
-                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
-                <!-- O link acima é um exemplo de link externo, que leva o usuário para um site fora do nosso portfólio. -->
-
-            </ul>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
-    <section id="sobre-mim"> <!-- Seção sobre mim. -->
-        <h2>SOBRE MIM</h2>
+    <main id="inicio">
+        <section class="hero section">
+            <div class="hero-content">
+                <p class="eyebrow">Desenvolvedor front-end em formação</p>
+                <h1>Crio interfaces simples, responsivas e bem estruturadas.</h1>
+                <p class="hero-text">
+                    Sou Rodrigo Sastre. Estou construindo minha trajetória em tecnologia com foco em HTML,
+                    CSS, JavaScript e boas práticas para transformar ideias em experiências digitais.
+                </p>
 
-        <article>
-            <p>Olá! Sou Rodrigo Sastre, um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência em
-                desenvolvimento web e estou sempre buscando aprender novas habilidades para aprimorar meus projetos.</p>
+                <div class="hero-actions" aria-label="Links principais">
+                    <a class="button primary" href="#projetos">Ver projetos</a>
+                    <a class="button secondary" href="https://github.com/RodrigoAD7" target="_blank" rel="noreferrer">
+                        GitHub
+                    </a>
+                </div>
+            </div>
 
-            <p>DA IDEIA AO DIGITAL, HTML É O INICIAL!</p>
+            <div class="profile-card" aria-label="Resumo profissional">
+                <img src="Imagens/Caricatura.png" alt="Caricatura de Rodrigo Sastre">
+                <div>
+                    <strong>Rodrigo Sastre</strong>
+                    <span>Front-end • HTML • CSS • JavaScript</span>
+                </div>
+            </div>
+        </section>
 
-            <img class="imagem-flutuante" src="imagens/Caricatura.png" alt="imagem de foto do perfil" title="foto do perfil do Rodrigo">
+        <section class="section about" id="sobre">
+            <div>
+                <p class="eyebrow">Sobre mim</p>
+                <h2>Da ideia ao digital, com atenção aos detalhes.</h2>
+            </div>
 
+            <div class="about-text">
+                <p>
+                    Tenho interesse em desenvolvimento web, tecnologia e inovação. Meu objetivo é criar páginas
+                    acessíveis, organizadas e fáceis de usar, evoluindo projeto por projeto.
+                </p>
+                <p>
+                    Este portfólio foi reestruturado para apresentar melhor meu perfil profissional, minhas
+                    habilidades e meus próximos passos como desenvolvedor.
+                </p>
+            </div>
+        </section>
 
-            <aside>
-                <h2>HABILIDADES</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
+        <section class="section" id="habilidades">
+            <div class="section-heading">
+                <p class="eyebrow">Habilidades</p>
+                <h2>Tecnologias que estou praticando</h2>
+            </div>
 
-                </ul>
-            </aside>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span>01</span>
+                    <h3>HTML semântico</h3>
+                    <p>Estrutura clara, títulos organizados, links acessíveis e conteúdo fácil de navegar.</p>
+                </article>
 
-    </section id="projetos"> <!-- Seção de projetos. -->
+                <article class="skill-card">
+                    <span>02</span>
+                    <h3>CSS responsivo</h3>
+                    <p>Layouts adaptáveis, espaçamento consistente e visual mais profissional em diferentes telas.</p>
+                </article>
 
-    <section>
-        <h2>PROJETOS</h2>
+                <article class="skill-card">
+                    <span>03</span>
+                    <h3>JavaScript</h3>
+                    <p>Base para criar interações, validar formulários e evoluir páginas estáticas para aplicações.</p>
+                </article>
+            </div>
+        </section>
 
-        <article>
-            <h2>PORTFÓLIO</h2>
+        <section class="section projects" id="projetos">
+            <div class="section-heading">
+                <p class="eyebrow">Projetos</p>
+                <h2>Trabalhos em evolução</h2>
+            </div>
 
-            <p>
-                Confira alguns dos meus projetos mais recentes:
-            </p>
+            <div class="project-list">
+                <article class="project-card">
+                    <div>
+                        <h3>Portfólio pessoal</h3>
+                        <p>
+                            Página responsiva desenvolvida com HTML e CSS para apresentar perfil, habilidades e links
+                            profissionais.
+                        </p>
+                    </div>
+                    <a href="https://rodrigoad7.github.io/site-front-end-sctec/" target="_blank" rel="noreferrer">
+                        Ver online
+                    </a>
+                </article>
 
-        </article>
+                <article class="project-card">
+                    <div>
+                        <h3>Próximo projeto</h3>
+                        <p>
+                            Espaço reservado para destacar um projeto com JavaScript, consumo de API ou uma aplicação
+                            publicada.
+                        </p>
+                    </div>
+                    <a href="#contato">Em desenvolvimento</a>
+                </article>
+            </div>
+        </section>
 
-    </section>
+        <section class="section contact" id="contato">
+            <div>
+                <p class="eyebrow">Contato</p>
+                <h2>Vamos conversar sobre tecnologia e oportunidades.</h2>
+            </div>
 
-    <secion>
-        <h2> HABILIDADES E TECNOLOGIAS </h2>
-
-        <table>
-            <thead>
-                <tr>
-
-                    <th>Tecnologia</th>
-                    <th>Nível</th>
-                    <th>Descrição</th>
-
-                </tr>
-
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>Iniciado</td>
-                    <td>Conhecimento avançado em estruturação de páginas web</td>
-                </tr>
-
-                <tr>
-                    <td>CSS</td>
-                    <td>Intermediário</td>
-                    <td>Conhecimento em design responsivo e estilização de páginas web</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Intermediário</td>
-                    <td>Conhecimento em programação orientada a objetos e manipulação do DOM</td>
-                </tr>
-            </tbody>
-
-        </table>
-
-    </secion>
-
-
-
-    <footer>
-        <p>
-            direitos reservados a Rodrigo Sastre
-        </p>
-
-
-        <section id="contatos">
-            <h2>Contatos</h2>
-            <p>
-                Entre em contato comigo para discutir oportunidades de colaboração ou para saber mais sobre meus
-                projetos.
-            </p>
-
-            <address>
-                Email: <a href="mailto:rodrigo.sastre@example.com">rodrigo.sastre@example.com</a><br>
-                Telefone: <a href="tel:11987654321">(11) 98765-4321</a><br>
-                Instagram: <a href="https://www.instagram.com/rodrigo.sastre" target="_blank">@rodrigo.sastre</a><br>
-                LinkedIn: <a href="https://www.linkedin.com/in/rodrigo-sastre"
-                    target="_blank">linkedin.com/in/rodrigo-sastre</a><br>
-
+            <address class="contact-links">
+                <a href="mailto:rodrigo.sastre@example.com">rodrigo.sastre@example.com</a>
+                <a href="https://www.linkedin.com/in/rodrigo-sastre" target="_blank" rel="noreferrer">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/RodrigoAD7" target="_blank" rel="noreferrer">
+                    GitHub
+                </a>
             </address>
-
-
-            </form>
-
-            <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name" required><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-
-            <label for="telefone">Telefone:</label><br>
-            <input type="tel" id="telefone" name="telefone" required><br>
-
-            <label for="assunto">Assunto:</label><br>
-            <input type="text" id="assunto" name="assunto" required><br>
-
-            <select name="assunto" id="assunto">
-                <option value="colaboracao">Colaboração</option>
-                <option value="projetos">Projetos</option>
-                <option value="outros">Outros</option>
-
-            </select>
-
-            <br>
-            <br>
-
-            <label for="message">Mensagem:</label><br>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-
-            <input type="checkbox" id="termos" name="termos" required>
-
-            <label for="termos">Li e concordo com os termos de uso</label><br>
-
-            <input type="submit" value="Enviar">
-
         </section>
+    </main>
 
-        <section>
-            <h2>Links</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/rodrigo-sastre" target="_blank">LinkedIn</a></li>
-                <li><a href="https://rodrigoad7.github.io/site-front-end-sctec/" target="_blank">GitHub</a></li>
-            </ul>
-        </section>
-
-
-        </form>
-
-        <label for="name">Nome Completo:</label><br>
-        <input type="text" id="name" name="name" required><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="idade">Idade:</label><br>
-        <input type="number" id="idade" name="idade" required><br>
-        <br>
-
-        <label for="assunto">Para qual Matérica você está se candidatando?:</label><br>
-
-        <select name="assunto" id="assunto">
-            <option value="matemática">Matemática</option>
-            <option value="portugues">Português</option>
-            <option value="biologia">Biologia</option>
-            <option value="ciências">Ciências</option>
-            <option value="história">História</option>
-            <option value="geografia">Geografia</option>
-            <option value="artes">Artes</option>
-
-        </select>
-        <br>
-        <br>
-
-        <label for="assunto">Qual seu Nivel de escolaridade?:</label><br>
-
-        <select name="assunto" id="assunto">
-            <option value="ensino-superior">Ensino Superior</option>
-            <option value="cursando-mestrado">Cursando Mestrado</option>
-            <option value="mestrado-completo">Mestrado Completo</option>
-            <option value="cursando-doutorado">Cursando Doutorado</option>
-            <option value="doutorado-completo">Doutorado Completo</option>
-        </select>
-
-        <br>
-
-
-
-        </select>
-
-        <br>
-
-        <label for="message">Descrição sobre si mesmo:</label><br>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-
-        <input type="checkbox" id="termos" name="termos" required>
-
-        <label for="termos">No Maximo 200 Caracteres</label><br>
-
-        <input type="submit" value="Enviar">
-
-        </section>
-
+    <footer class="site-footer">
+        <p>© 2026 Rodrigo Sastre. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 
 </html>
