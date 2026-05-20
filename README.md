@@ -2,7 +2,7 @@
 
 Projeto de portfólio pessoal desenvolvido com HTML e CSS, com foco em estrutura semântica, responsividade e apresentação profissional para GitHub Pages.
 
-🔗 Acesse: https://rodrigoad7.github.io/site-front-end-sctec/
+🔗 Acesse: https://rodrigo-sastre.github.io/site-front-end-sctec/
 
 ## Visão geral
 
